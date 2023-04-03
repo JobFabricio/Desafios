@@ -1,0 +1,257 @@
+body{
+    transition: all 1.5s ease;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url("../Imagenes/image.jpg");
+}
+
+#toggle{
+    display: none;
+}
+
+#lable_toggle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+button{
+    display: none;
+}
+
+#uno{
+    display: none;
+}
+
+#lable_uno{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#dos{
+    display: none;
+}
+
+#lable_dos{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#tres{
+    display: none;
+}
+
+#lable_tres{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#menos{
+    display: none;
+}
+
+#lable_menos{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#cuatro{
+    display: none;
+}
+
+#lable_cuatro{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#cinco{
+    display: none;
+}
+
+#lable_cinco{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#seis{
+    display: none;
+}
+
+#lable_seis{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#mas{
+    display: none;
+}
+
+#lable_mas{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#toggle{
+    display: none;
+}
+
+#lable_toggle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#siete{
+    display: none;
+}
+
+#lable_siete{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#ocho{
+    display: none;
+}
+
+#lable_ocho{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#nueve{
+    display: none;
+}
+
+#lable_nueve{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#por{
+    display: none;
+}
+
+#lable_por{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#zero{
+    display: none;
+}
+
+#lable_zero{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#punto{
+    display: none;
+}
+
+#lable_punto{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#eliminar{
+    display: none;
+}
+
+#lable_eliminar{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#dividir{
+    display: none;
+}
+
+#lable_dividir{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#igual{
+    display: none;
+}
+
+#lable_igual{
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.dark{
+    background-color: #333;
+    color: #fff;
+    transition: all 1.5s ease;
+    background-image: url("../Imagenes/596533.jpg");
+}
+
+table{
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    border: 3px solid #a730f6;
+    border-collapse: collapse;
+}
+
+table label{
+    width: 100%;
+    font-size: 150%;
+}
+
+td {
+    border: 3px solid #a730f6;
+    text-align: center;
+  }
+
+.ac{
+    color: red;
+}
+
+div{
+    font-size: 65px;
+}

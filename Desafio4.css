@@ -1,0 +1,171 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.category-link {
+  margin-right: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  color: #333;
+  background-color: #f5f5f5;
+  transition: all 0.2s ease;
+}
+
+.category-link:hover,
+.category-link.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.article {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.article h2 {
+  margin-top: 0;
+}
+
+.article p {
+  margin: 0;
+}
+
+.article span {
+  font-weight: bold;
+}
+
+header nav ul li{
+  list-style-type: none;
+  float: left;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  padding: 15px 20px 15px 20px;
+  display: inline-block;
+  color: #2d3646;
+}
+header{
+  background-color: #eeeeee;
+  width: 100%;
+  height: 35px;
+  top: 70px;
+  text-align: right;
+}
+
+form{
+  position: absolute;
+  top: 23px;
+  right: 90px;
+  color: #2d3646;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+body {margin:0;}
+  
+#barraInferior {
+overflow: hidden;
+width: 100%;
+}
+
+#barraInferior ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 30% ;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+#barraInferior li {
+    float: left;
+    
+}
+
+#barraInferior li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#barraInferior li a:hover{
+    background-color: #3c5abe;
+}
+
+#barraInferior li a:active{
+    background-color:#4CAF50;
+}
+
+img{
+  height: 150px;
+}
+
+a{
+  color: #3c5abe;
+}
+
+body{
+  transition: all 1.5s ease;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url("image.jpg");
+}
+
+#toggle{
+  display: none;
+}
+
+#lable_toggle{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2em;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.dark{
+  background-color: #333;
+  color: #fff;
+  transition: all 1.5s ease;
+  background-image: url("596533.jpg");
+}

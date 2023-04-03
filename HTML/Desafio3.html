@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Desafio3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desafico 3</title>
+</head>
+<label for="toggle" id="lable_toggle"><i class="fa-solid fa-moon"></i></label>
+    <input type="checkbox" id="toggle">
+<body>
+    
+    <div class="music-player">
+        <audio id="audio-player" src="../Imagenes/Mi Sobrino Memo - Si te Vuelvo a Encontrar (Kanto).mp3"></audio>
+        <div class="controls">
+          <button id="play-btn"><i class="fa fa-play"></i></button>
+          <button id="pause-btn"><i class="fa fa-pause"></i></button>
+        </div>
+        <div class="song-info">
+          <h2>Nombre de la canción</h2>
+          <p>Nombre del artista</p>
+        </div>
+        <div class="progress-bar">
+          <input type="range" id="progress-bar" min="0" max="100" value="0">
+        </div>
+      </div>
+      
+<script src="../js/Desafio3.js"></script>
+<script src="../js/Index.js"></script>
+</body>
+</html>

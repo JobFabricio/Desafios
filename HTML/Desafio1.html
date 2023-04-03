@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Desafio1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desafio 1</title>
+</head>
+<body>
+    <label for="toggle" id="lable_toggle"><i class="fa-solid fa-moon"></i></i></label>
+    <input type="checkbox" id="toggle">
+
+    <h1>Calculadora</h1>
+    <table>
+
+        <tr>
+            <td colspan="4">
+                <div id="result"></div>
+            </td>  
+        </tr>
+
+        <tr>
+                <td><label for="siete" id="lable_siete"><i class="fa-solid fa-7"></i></label>
+                <input type="button" id="siete" onclick="add('7')"></td>
+
+                <td><label for="ocho" id="lable_ocho" onclick="add('8')"><i class="fa-solid fa-8"></i></label>
+                <input type="button" id="ocho"></td>
+    
+
+                <td><label for="nueve" id="lable_nueve" onclick="add('9')"><i class="fa-solid fa-9"></i></label>
+                <input type="button" id="nueve"></td>
+
+                <td><label for="por" id="lable_por" onclick="add('*')"><i class="fa-solid fa-x"></i></label>
+                <input type="button" id="por"></td>
+        
+        </tr>
+    
+        <tr>
+    
+                <td><label for="cuatro" id="lable_cuatro" onclick="add('4')"><i class="fa-solid fa-4"></i></label>
+                <input type="button" id="cuatro"></td>
+
+                <td><label for="cinco" id="lable_cinco" onclick="add('5')"><i class="fa-solid fa-5"></i></label>
+                <input type="button" id="cinco"></td>
+
+                <td><label for="seis" id="lable_seis" onclick="add('6')"><i class="fa-solid fa-6"></i></label>
+                <input type="button" id="seis"></td>
+
+                <td><label for="menos" id="lable_menos" onclick="add('-')"><i class="fa-solid fa-minus"></i></label>
+                <input type="button" id="menos"></td>
+        </tr>
+
+        <tr>
+                <td><label for="uno" id="lable_uno" onclick="add('1')"><i class="fa-solid fa-1"></i></label>
+                <input type="button" id="uno"></td>
+
+                <td><label for="dos" id="lable_dos" onclick="add('2')"><i class="fa-solid fa-2"></i></label>
+                <input type="button" id="dos"></td>
+
+                <td><label for="tres" id="lable_tres" onclick="add('3')"><i class="fa-solid fa-3"></i></label>
+                <input type="button" id="tres"></td>
+
+                <td><label for="mas" id="lable_mas" onclick="add('+')"><i class="fa-solid fa-plus"></i></label>
+                <input type="button" id="mas"></td>
+
+        </tr>
+
+                <td><label for="zero" id="lable_zero" onclick="add('0')"><i class="fa-solid fa-0"></i></label>
+                <input type="button" id="zero"></td>
+
+                <td><label for="punto" id="lable_punto" onclick="add('.')"><i class="fa-solid fa-circle-user"></i></label>
+                <input type="button" id="punto"></td>
+
+                <td><label for="eliminar" id="lable_eliminar" onclick="del()" class="ac"><i class="fa-solid fa-delete-left"></i></label>
+                <input type="button" id="eliminar"></td>
+
+                <td><label for="dividir" id="lable_dividir" onclick="add('/')"><i class="fa-solid fa-divide"></i></label>
+                <input type="button" id="dividir"></td>
+        </tr>
+
+        <tr>
+                <td colspan="4"><label for="igual" id="lable_igual" onclick="calc()"><i class="fa-solid fa-equals"></i></label>
+                <input type="button" id="igual"></td>
+        </tr>
+    </table>
+    <script src="../js/Index.js"></script>
+    <script src="../js/Desafio1.js"></script>
+</body>
+</html>
